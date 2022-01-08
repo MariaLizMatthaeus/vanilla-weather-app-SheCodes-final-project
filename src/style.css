@@ -1,7 +1,7 @@
 h1 {
-  color: #bdc1c6;
+  color: #212121;
   display: block;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 0;
@@ -55,4 +55,9 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -23px;
+}
+.weather-temperature .active {
+  color: #212121;
+  cursor: default;
+  text-decoration: none;
 }
