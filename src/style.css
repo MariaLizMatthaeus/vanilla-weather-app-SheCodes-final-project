@@ -61,3 +61,17 @@ li:first-letter {
   cursor: default;
   text-decoration: none;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 18px;
+  color: rgb(154, 160, 166);
+}
+.weather-forecast-temperature-max {
+  color: #70cca3;
+}
+.weather-forecast-temperature-min {
+  color: #013940;
+}
