@@ -116,14 +116,18 @@ function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   celsiusLink.classList.remove("active");
+  celsiusLink.classList.add("inactive");
   fahrenheitLink.classList.add("active");
+  fahrenheitLink.classList.remove("inactive");
   let fahrehheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrehheitTemperature);
 }
 function displayCelsiusTemperature(event) {
   event.preventDefault();
   celsiusLink.classList.add("active");
+  celsiusLink.classList.remove("inactive");
   fahrenheitLink.classList.remove("active");
+  fahrenheitLink.classList.add("inactive");
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
