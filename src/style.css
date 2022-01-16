@@ -9,6 +9,7 @@ h1 {
 body {
   font-family: "Fira Sans", sans-serif;
   background-image: url(../media/background_abstract.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -105,8 +106,4 @@ li:first-letter {
 }
 #description {
   color: #212121;
-}
-#current-button {
-  border: solid;
-  border-color: #6c757d;
 }
