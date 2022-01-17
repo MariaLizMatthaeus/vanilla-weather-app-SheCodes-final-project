@@ -9,8 +9,11 @@ h1 {
 body {
   font-family: "Fira Sans", sans-serif;
   background-image: url(../media/background_abstract.jpg);
+  background-color: #3b4346;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 
 ul {
